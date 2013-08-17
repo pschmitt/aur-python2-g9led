@@ -2,7 +2,7 @@
 
 import usb
 G9_VENDOR_ID = 0x046d
-G9_PRODUCT_IDS = [0xc048, 0xc066]
+G9_PRODUCT_IDS = [0xc048, 0xc066, 0xc066]
 
 
 def get_g9_handle():
@@ -15,7 +15,7 @@ def get_g9_handle():
 
 
 def g9_change_color(handle=None, red=None, green=None, blue=None):
-    """ Change the color of an G9 leds
+    """ Change the color of an G9(X) leds
     g9: handle
     red: int between 0 and 255
     green: int between 0 and 255
