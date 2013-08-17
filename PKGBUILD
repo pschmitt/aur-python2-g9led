@@ -2,10 +2,10 @@
 
 pkgname=python2-g9led
 pkgver=1
-pkgrel=1
+pkgrel=2
 pkgdesc="Logitech G9(X) LED color control utility"
 arch=('i686' 'x86_64')
-url=('http://als.regnet.cz/logitech-g9-linux-led-color.html', 'https://github.com/pschmitt/g9led')
+url=('http://als.regnet.cz/logitech-g9-linux-led-color.html' 'https://github.com/pschmitt/g9led')
 license=('unknown')
 depends=('python2-pyusb')
 source=('https://raw.github.com/pschmitt/g9led/master/g9led.py')
