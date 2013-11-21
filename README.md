@@ -12,4 +12,6 @@ makepkg -si
 ```
 
 ## Links
+
 * Upstream: http://als.regnet.cz/logitech-g9-linux-led-color.html
+* AUR: https://aur.archlinux.org/packages/python2-g9led/
